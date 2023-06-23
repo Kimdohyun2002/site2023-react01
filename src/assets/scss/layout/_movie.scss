@@ -1,6 +1,6 @@
 // movie__wrap
 .movie__wrap {
-  margin-top: 300px;
+  padding: 100px 0;
   overflow: hidden;
 }
 .movie__inner {
@@ -8,10 +8,12 @@
 
   .movie__text {
     h3 {
+      color: #f1e5d4;
       font-size: 50px;
       margin-bottom: 40px;
     }
     p {
+      color: #f1e5d4;
       font-size: 22px;
       font-weight: 300;
       margin-bottom: 30px;

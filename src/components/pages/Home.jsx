@@ -13,8 +13,8 @@ const Home = () => {
     <>
       <Contents>
         <Slider attr="slider__wrap gmarket5" />
-        <Intro attr="intro__wrap section bg-blue gmarket5" />
-        <Portfolio attr="port__wrap section center bg-blue gmarket5" />
+        <Intro attr="intro__wrap section gmarket5" />
+        <Portfolio attr="port__wrap section center gmarket5" />
         <Unsplash attr="unsplash__wrap gmarket5" />
         <Youtube attr="youtube__wrap gmarket5" />
         <Movie attr="movie__wrap gmarket5" />

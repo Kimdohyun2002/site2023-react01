@@ -1,5 +1,8 @@
 //youtube__wrap
 .youtube__wrap {
+  padding: 100px 0;
+  margin-top: 300px;
+  background-color: #fff;
   overflow: hidden;
 }
 .youtube__slider {
@@ -9,10 +12,12 @@
   height: 600px;
   .youtube__text {
     h3 {
+      color: #1c2033;
       font-size: 50px;
       margin-bottom: 40px;
     }
     p {
+      color: #1c2033;
       font-size: 22px;
       font-weight: 300;
       margin-bottom: 60px;
