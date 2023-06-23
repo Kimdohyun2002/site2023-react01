@@ -1,38 +1,131 @@
-// youtube__wrap
+//youtube__wrap
 .youtube__wrap {
-    margin-top: 300px;
-    overflow: hidden;
+  overflow: hidden;
+}
+.youtube__slider {
+  display: none;
 }
 .youtube__inner {
-    height: 560px;
-
-    .youtube__text {
-        h3 {
-            font-size: 50px;
-            margin-bottom: 40px;
-        }
-        p {
-            font-size: 22px;
-            font-weight: 300;
-            margin-bottom: 30px;
-        }
-        a {
-            @include border(50px);
-        }
+  height: 600px;
+  .youtube__text {
+    h3 {
+      font-size: 50px;
+      margin-bottom: 40px;
     }
-    .youtube__item {
-        @include flex-between;
-        margin-top: 70px;
-        position: absolute;
-
-        > div {
-            width: 400px;
-            margin-right: 20px;
-
-            img {
-                width: 100%;
-                @include border(10px);
-            }
-        }
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 60px;
     }
+    a {
+      @include border(50px);
+    }
+  }
+  .youtube__item {
+    @include flex-between;
+    position: absolute;
+    margin-top: 70px;
+    > div {
+      margin-right: 10px;
+      width: 400px;
+      @include border(20px);
+    }
+    > div > img {
+      border: 2px solid #000;
+      border-radius: 25px;
+    }
+  }
+}
+.youtube__search {
+  text-align: center;
+  margin-bottom: 50px;
+
+  input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    @include border(50px);
+    min-width: 500px;
+    margin-right: 10px;
+    font-family: "GmarketSans";
+  }
+  button {
+    @include button(#f7100d, #fff);
+    @include border(50px);
+    font-family: "GmarketSans";
+  }
+}
+
+.youtube__tag {
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    li {
+      border: 1px solid #f7100d;
+      padding: 10px 20px;
+      margin: 0 10px;
+
+      a {
+        color: #f7100d;
+      }
+    }
+  }
+}
+
+.youtube__cont {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    li {
+      width: 31.333%;
+      margin-bottom: 4%;
+      img {
+      }
+
+      span {
+        color: #f5efe7;
+        display: block;
+        margin: 4px 0;
+      }
+    }
+  }
+}
+.cont__title > h2 {
+  text-align: center;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10%;
+  color: #f1e5d4;
+}
+
+// youtube__tag
+.youtube__tag {
+  text-align: center;
+
+  button {
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    color: #f7100d;
+    background-color: #fff;
+    border: 1px solid #f7100d;
+
+    &:hover {
+      cursor: pointer;
+      transition: all 0.5s;
+      color: #fff;
+      background-color: #f7100d;
+      font-size: 20px;
+    }
+
+    &:not(:nth-child(6)) {
+      margin-right: 20px;
+    }
+  }
 }
