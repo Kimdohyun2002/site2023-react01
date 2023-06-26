@@ -39,7 +39,7 @@ const Slider = (props) => {
                     어떤 일이라도 노력하고 즐기면 그 결과는 빛을 바란다고
                     생각합니다.
                   </p>
-                  <a href="#" className="more button-red">
+                  <a href="/" className="more button-red">
                     더 알아보기
                   </a>
                 </div>
@@ -80,7 +80,7 @@ const Slider = (props) => {
                     어떤 일이라도 노력하고 즐기면 그 결과는 빛을 바란다고
                     생각합니다.
                   </p>
-                  <a href="#" className="more button-red">
+                  <a href="/" className="more button-red">
                     더 알아보기
                   </a>
                 </div>
@@ -121,7 +121,7 @@ const Slider = (props) => {
                     어떤 일이라도 노력하고 즐기면 그 결과는 빛을 바란다고
                     생각합니다.
                   </p>
-                  <a href="#" className="more button-red">
+                  <a href="/" className="more button-red">
                     더 알아보기
                   </a>
                 </div>
