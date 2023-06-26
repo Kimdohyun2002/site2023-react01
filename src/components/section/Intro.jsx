@@ -2,7 +2,11 @@ import React from "react";
 
 const Intro = (props) => {
   return (
-    <section id="introSection" class={props.attr}>
+    <section
+      id="introSection"
+      class={props.attr}
+      style={{ backgroundColor: "#fff" }}
+    >
       <h3 class="blind">코딩에 대한 설명</h3>
       <div class="intro__inner container">
         <div class="intro__title">
