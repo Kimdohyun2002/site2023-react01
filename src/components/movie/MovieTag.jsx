@@ -45,7 +45,7 @@ const MovieTag = ({ onSearch }) => {
             key={index}
             className={tag.name === activeTag ? "active" : ""}
           >
-            <a hef="/">{tag.name}</a>
+            <button>{tag.name}</button>
           </li>
         ))}
       </ul>

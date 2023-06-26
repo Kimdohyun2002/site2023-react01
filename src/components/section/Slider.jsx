@@ -8,7 +8,11 @@ import "swiper/scss/pagination";
 
 const Slider = (props) => {
   return (
-    <section id="sliderSection" className={props.attr}>
+    <section
+      id="sliderSection"
+      className={props.attr}
+      style={{ backgroundColor: "#1c2033" }}
+    >
       <div className="slider__inner">
         <h2 className="blind">배너 슬라이드</h2>
         <div className="slider__img">

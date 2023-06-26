@@ -3,7 +3,7 @@ import Contents from "../layout/Contents";
 
 const IntorPage = () => {
   return (
-    <Contents>
+    <Contents style={{ backgroundColor: "#1c2033" }}>
       <h2 className="introh2">코딩이란 무엇일까 ?</h2>
       <div className="introtext">
         <h3 className="h3-1">코딩(Coding)이란?</h3>
