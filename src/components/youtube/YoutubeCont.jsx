@@ -9,6 +9,7 @@ const YoutubeItem = ({ youtube }) => {
         rel="noreferrer"
       >
         <img
+          className="Youtube_img"
           src={youtube.snippet.thumbnails.medium.url}
           alt={youtube.snippet.title}
         />

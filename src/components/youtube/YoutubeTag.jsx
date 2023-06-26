@@ -1,7 +1,7 @@
 import React from "react";
 
 const youtubeTag = [
-  { name: "webstoryboy" },
+  { name: "html" },
   { name: "react.js" },
   { name: "vue.js" },
   { name: "next.js" },
